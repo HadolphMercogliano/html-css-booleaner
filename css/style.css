@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-weight: 600;
 }
-body {
-    margin-left: 10px;
+main {
+    margin-left: 20px;
 }
 
 header {
@@ -24,9 +25,35 @@ h1 {
     margin-top: 15px;
     font-size: 50px;
 }
-
+ 
 .writer {
-    font-size: 60px ;
-    font-weight: bolder;
     color: grey;
+}
+
+img {
+    padding-top: 20px;
+}
+
+.color-blue {
+    color: #559EF6;
+}
+.article {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.thead {
+    background-color: #559EF6;
+}
+
+
+ul {
+    margin-left:10px
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd) {
+    background-color: aqua;
 }
