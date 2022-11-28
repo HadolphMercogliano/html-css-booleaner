@@ -3,8 +3,14 @@
     padding: 0;
     font-weight: 600;
 }
+.container {
+    background-color: rgb(240, 255, 108);
+    margin: 0;
+    padding: 0;
+}
 main {
-    margin-left: 10px;
+    margin: auto;
+    width: 950px;
 }
 
 header {
@@ -19,6 +25,11 @@ header {
    padding-top: 50px;
    padding-left: 10px;
    padding-bottom: 10px;
+}
+
+.tim {
+    height: auto;
+    width: 450px;
 }
 
 h1 {
@@ -37,6 +48,7 @@ img {
 .color-blue {
     color: #559EF6;
 }
+
 .article {
     margin-top:20px;
     margin-bottom: 20px;
@@ -46,37 +58,47 @@ img {
     background-color: #559EF6;
 }
 
-
 ul {
     margin: 20px;
 }
-table {
+
+ table { 
     width: 100%;
     border-collapse: collapse;
 }
+
 tbody tr:nth-child(odd) {
     background-color: aqua;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
 }
 
 h2 {
     margin:10px;
 }
+
 .other-article1 {
-    margin-top: 10px;
+    margin: 20px;
     height: 150px;
     width: 200px;
     background-image: url(../img/monitor.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    display: inline-block; 
 }
+
 .other-article2 {
-    margin-top: 10px;
+    margin: 20px;
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
     height: 150px;
     width: 200px;
     background-size: contain;
+    display: inline-block;
 }
+
 h3 {
     padding: 15px;
     color: white;
