@@ -58,19 +58,26 @@ tbody tr:nth-child(odd) {
     background-color: aqua;
 }
 
-h3 {
+h2 {
     margin:10px;
 }
 .other-article1 {
     margin-top: 20px;
-    height: 200px;
+    height: 150px;
+    width: 200px;
     background-image: url(../img/monitor.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .other-article2 {
     margin-top: 20px;
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-
+    height: 150px;
+    width: 200px;
+    background-size: contain;
+}
+h3 {
+    padding: 15px;
+    color: white;
 }
