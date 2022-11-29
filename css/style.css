@@ -1,3 +1,4 @@
+/* tag generici */
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +8,23 @@ main {
     margin-left: 10px;
 }
 
+.color-blue {
+color: #559EF6;
+}
+
+.grey {
+    color: grey;
+}
+
+/* header */
+
 header {
     background-color: #559EF6;
     background-image: url(../img/pattern.png);
-    background-size: 35%;
-    /* background-position: center left ; */
+    background-size: 30%;
     background-repeat: repeat;
 }
+
  #titolo {
    height: 50px;
    padding-top: 50px;
@@ -21,22 +32,16 @@ header {
    padding-bottom: 10px;
 }
 
-h1 {
+ /* main */
+ h1 {
     margin-top: 15px;
     font-size: 50px;
 }
  
-.writer {
-    color: grey;
-}
-
 img {
     padding-top: 20px;
 }
 
-.color-blue {
-    color: #559EF6;
-}
 .article {
     margin-top:20px;
     margin-bottom: 20px;
@@ -44,11 +49,13 @@ img {
 
 .thead {
     background-color: #559EF6;
+    color: #fff;
+    text-align: left;
 }
 
-
 ul {
-    margin: 20px;
+    margin-top: 20px;
+    list-style-position: inside;
 }
 table {
     width: 100%;
